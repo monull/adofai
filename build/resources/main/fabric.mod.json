@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "adofai",
+  "version": "1.0.0",
+
+  "name": "ADOFAI Mod",
+  "description": "ADOFAI in Minecraft!",
+  "authors": [
+    "Monull2452!"
+  ],
+  "contact": {
+    "homepage": "https://github.com/monull2452/",
+    "sources": "https://github.com/monull2452/adofai-mod"
+  },
+
+  "license": "CC0-1.0",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.monull.adofai.ADOFAIMod"
+    ]
+  },
+  "mixins": [
+    "adofai.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

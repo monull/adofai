@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "io/github/monull/adofai/mixin/MinecraftServerMixin": {
+      "runServer": "Lnet/minecraft/server/MinecraftServer;method_29741()V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "io/github/monull/adofai/mixin/MinecraftServerMixin": {
+        "runServer": "Lnet/minecraft/server/MinecraftServer;method_29741()V"
+      }
+    }
+  }
+}
